@@ -1,0 +1,23 @@
+CREATE TABLE Puppy_palace (id INTEGER PRIMARY KEY, Name TEXT, Quantity INTEGER, Price NUMERIC, Rating_Stars INTEGER); 
+
+
+INSERT INTO Puppy_palace VALUES (1, "Chew Toys", 7, 9, 5);
+INSERT INTO Puppy_palace VALUES (2, "Leashes", 10, 12.99, 3);
+INSERT INTO Puppy_palace VALUES (3, "Canned Food", 15, 5.99, 5);
+INSERT INTO Puppy_palace VALUEs (4, "Dry Food", 10, 7.99, 5);
+INSERT INTO Puppy_palace VALUES (5, "Training Aid", 3, 5.99, 4);
+INSERT INTO Puppy_palace VALUES (6, "Collars", 9, 6.50, 5);
+INSERT INTO Puppy_palace VAlUES (7, "Blankets", 2, 10.99, 2);
+INSERT INTO Puppy_palace VALUES (8, "Beds", 4, 15.00, 3);
+INSERT INTO Puppy_palace VALUES (9, "Lick Mats", 3, 5.00, 4);
+INSERT INTO Puppy_palace VALUES (10, "Chew Sticks", 10, 1.99, 5);
+INSERT INTO Puppy_palace VALUES (11, "Vests", 5, 12.95, 3);
+INSERT INTO Puppy_palace VALUES (12, "Harness", 1, 15.00, 5);
+INSERT INTO Puppy_palace VALUES (13, "Squeak Toy", 15, 3.99, 4);
+INSERT INTO Puppy_palace VALUES (14, "Shampoo", 4, 6.89, 5);
+INSERT INTO Puppy_palace VALUES (15, "Conditioner", 2, 5.95, 4);
+
+SELECT * FROM Puppy_palace ORDER BY price;
+
+SELECT RATING_Stars MAX FROM Puppy_palace WHERE id > 7; 
+
